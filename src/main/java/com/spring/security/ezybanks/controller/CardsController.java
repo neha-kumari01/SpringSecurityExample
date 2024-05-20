@@ -1,4 +1,4 @@
-package com.spring.security.demo.controller;
+package com.spring.security.ezybanks.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/auth")
-public class DemoController {
+public class CardsController {
 	
-	@GetMapping("/greet")
-	public String greeting() {
-		return "Hi";
-		
+	@GetMapping("/myCards")
+	public String getCardDetails()
+	{
+		return "Here is the list of cards";
 	}
 
 }

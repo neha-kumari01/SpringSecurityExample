@@ -1,10 +1,10 @@
-package com.spring.security.demo;
+package com.spring.security.ezybanks;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class EzyBankApplicationTests {
 
 	@Test
 	void contextLoads() {

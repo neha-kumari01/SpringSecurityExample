@@ -1,4 +1,4 @@
-package com.spring.security.demo;
+package com.spring.security.ezybanks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 
 @SpringBootApplication
 @EnableWebSecurity
-public class DemoApplication {
+public class EzyBankApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(EzyBankApplication.class, args);
 	}
 
 }
